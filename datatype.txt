@@ -1,0 +1,12 @@
+string ko '' or " " code htae yay//"Hello" //'My name is ..'
+integer //1 2 3// 1 56
+Float // 1.2 // 2.5 // 
+Boolean // true(1) false(0)
+array//[ "aung aung","zaw zaw", 234, true] like list in python
+object// { } may be dictionary in python
+null// no value assigned
+resources
+
+desdtop po ko tin chin yin vscode htae ka "save workspace as" ko nate pye destkop ko nate pye save lite
+
+    <!-- <?php echo ?> == <?= ?> -->

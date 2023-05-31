@@ -1,0 +1,56 @@
+Database>DatabaseTable
+//create database //name htae //font ka UTf8
+//Drop Database
+//Operatons>drop database
+
+//Create DatabaseTable
+ID Name Phone Address Created  Updated_at --> they are called columns
+
+index ko id a twat pae tone
+
+//TYPE => int, varchar, longtext, text, medium text, timestamp , birthday for date, 
+//Default => created_at, Updated_at => current_timestamp htar pay pr
+//id => primarykey + AI(auto increment) id ka taku nae taku thu lo ma ya lo
+
+SQL Query hmar
+//* means "all"
+SELECT ka yway chal tar
+
+For SELECT *
+SELECT * FROM table name WHERE condition
+
+FOR SELECT
+// SELECT col_name, col_name FROM table_name WHERE condition
+//current_timestamp() OR CURRENT_TIMESTAMP ko string pone san nae yay lo maya
+
+//INSERT
+INSERT INTO table_name ('col_name','col_name','col_name') VALUES ('value1','value2', 'value3')
+
+//UPDATE
+ UPDATE table_name SET col_name="value1", col_name="value2" WHERE condition
+
+ //DELETE
+ DELETE FROM table_name WHERE condition
+
+ //CONDITION
+ //AND
+ WHERE condition1 AND condition2
+
+ //OR 
+ WHERE condition1 OR condition2
+
+ //BETWEEN
+ WHERE col_name BETWEEN value1 AND value2
+
+ //IN
+ WHERE column IN ('value1','value2')
+
+ //NOT IN
+ WHERE column NOT IN ('value1',value2')
+
+ SELECT table.column, table.column
+ From table_name JOIN table_name JOIN table_name ON table.column=table.column AND table.column= table.column;
+
+ //sql injection
+ $stmt= connection->prepare(sql); // include ???
+ "look in create.php"
